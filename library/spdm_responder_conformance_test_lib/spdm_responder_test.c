@@ -31,6 +31,8 @@ common_test_group_t m_spdm_test_groups[] = {
      m_spdm_test_group_key_update_ack},
     {SPDM_RESPONDER_TEST_GROUP_END_SESSION_ACK,   "spdm_test_group_end_session_ack",
      m_spdm_test_group_end_session_ack},
+    {SPDM_RESPONDER_TEST_GROUP_VENDOR_DEFINED_RSP, "spdm_test_group_vendor_defined_rsp",
+     m_spdm_test_group_vendor_defined_rsp},
     {COMMON_TEST_ID_END, NULL, NULL},
 };
 

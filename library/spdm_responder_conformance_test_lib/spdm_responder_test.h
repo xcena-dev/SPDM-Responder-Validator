@@ -14,7 +14,7 @@
 #include "library/common_test_utility_lib.h"
 
 #ifndef LIBSPDM_MAX_SPDM_MSG_SIZE
-#define LIBSPDM_MAX_SPDM_MSG_SIZE 0x1200
+#define LIBSPDM_MAX_SPDM_MSG_SIZE 0x2000
 #endif
 
 #define SPDM_TEST_VERSION_MASK_V10 0x00000001
@@ -22,7 +22,7 @@
 #define SPDM_TEST_VERSION_MASK_V12 0x00000004
 #define SPDM_TEST_VERSION_MASK_V13 0x00000008
 
-#define SPDM_TEST_SCRATCH_BUFFER_SIZE 0x1000
+#define SPDM_TEST_SCRATCH_BUFFER_SIZE 0x2000
 
 typedef struct {
     void *spdm_context;
@@ -54,5 +54,6 @@ extern common_test_case_t m_spdm_test_group_finish_rsp[];
 extern common_test_case_t m_spdm_test_group_heartbeat_ack[];
 extern common_test_case_t m_spdm_test_group_key_update_ack[];
 extern common_test_case_t m_spdm_test_group_end_session_ack[];
+extern common_test_case_t m_spdm_test_group_vendor_defined_rsp[];
 
 #endif
