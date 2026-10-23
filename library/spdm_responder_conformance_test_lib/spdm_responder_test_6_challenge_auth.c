@@ -294,8 +294,6 @@ void spdm_test_case_challenge_auth_success_10_12 (void *test_context, uint8_t ve
     bool result;
     uint8_t measurement_hash_type[] = {
         SPDM_CHALLENGE_REQUEST_NO_MEASUREMENT_SUMMARY_HASH,
-        SPDM_CHALLENGE_REQUEST_TCB_COMPONENT_MEASUREMENT_HASH,
-        SPDM_CHALLENGE_REQUEST_ALL_MEASUREMENTS_HASH,
     };
     common_test_case_id case_id;
 

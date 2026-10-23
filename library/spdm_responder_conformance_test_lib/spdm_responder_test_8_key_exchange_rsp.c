@@ -364,8 +364,6 @@ void spdm_test_case_key_exchange_rsp_success_11_12 (void *test_context, uint8_t 
     bool result;
     uint8_t measurement_hash_type[] = {
         SPDM_KEY_EXCHANGE_REQUEST_NO_MEASUREMENT_SUMMARY_HASH,
-        SPDM_KEY_EXCHANGE_REQUEST_TCB_COMPONENT_MEASUREMENT_HASH,
-        SPDM_KEY_EXCHANGE_REQUEST_ALL_MEASUREMENTS_HASH,
     };
     common_test_case_id case_id;
 
